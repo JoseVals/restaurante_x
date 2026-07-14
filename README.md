@@ -48,13 +48,13 @@ restaurante_x/
 
 ### 🔹 1. Clonar el repositorio
 ```bash
-git clone https://github.com/G-E-L-O/biblioteca-facultad.git
-cd biblioteca-facultad
+git clone https://github.com/JoseVals/restaurante_x.git
+cd restaurante_x
 ````
 
 ### 🔹 2. Configurar la base de datos
 
-1. Crear una base de datos en SQL Server (ejemplo: `BibliotecaDB`).
+1. Crear una base de datos en SQL Server (ejemplo: `RestauranteBD`).
 
 2. Ejecutar los scripts de la carpeta `database/`:
 
@@ -68,7 +68,7 @@ Ejemplo:
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=BibliotecaDB;User Id=sa;Password=TuPassword123;"
+  "DefaultConnection": "Server=localhost;Database=RestauranteDB;User Id=sa;Password=TuPassword123;"
 }
 ```
 
@@ -111,25 +111,21 @@ http://localhost:5173
 
 ## 📖 Endpoints principales (API .NET)
 
-| Método | Endpoint           | Descripción                   |
-| ------ | ------------------ | ----------------------------- |
-| GET    | `/api/libros`      | Lista todos los libros        |
-| GET    | `/api/libros/{id}` | Obtiene un libro por ID       |
-| POST   | `/api/libros`      | Crea un nuevo libro           |
-| PUT    | `/api/libros/{id}` | Actualiza datos de un libro   |
-| DELETE | `/api/libros/{id}` | Elimina un libro              |
-| GET    | `/api/usuarios`    | Lista todos los usuarios      |
-| POST   | `/api/prestamos`   | Registra un préstamo de libro |
+| Método | Endpoint              | Descripción                    |
+| ------ | --------------------- | ------------------------------ |
+| GET    | `/api/platillos`      | Lista todos los platillos      |
+| GET    | `/api/platillos/{id}` | Obtiene un platillo por ID     |
+| POST   | `/api/platillos`      | Crea un nuevo platillo         |
+| PUT    | `/api/platillos/{id}` | Actualiza datos de un platillo |
+| DELETE | `/api/platillos/{id}` | Elimina un platillo            |
+| GET    | `/api/usuarios`       | Lista todos los usuarios       |
+| POST   | `/api/pedido`         | Registra un pedido de platillo |
 
 ---
 
 ## 👨‍💻 Colaboradores
 
-* G-E-L-O
-* AntonyPC-13
-* Gianf22
-* Erick Quispe huari
-* JDC150
+* JoseVals
 
 ---
 

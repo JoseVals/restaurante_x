@@ -1,7 +1,7 @@
 
-# 📚 Biblioteca Facultad
+# 📚 Restaurante x
 
-Sistema de gestión de biblioteca para la facultad. Permite administrar libros, usuarios y préstamos mediante una interfaz web moderna con **React + Vite** en el frontend y una **API REST en .NET** en el backend, con base de datos en **SQL Server**.
+Sistema de gestión de restaurante. Permite administrar pedidos mediante una interfaz web moderna con **React + Vite** en el frontend y una **API REST en .NET** en el backend, con base de datos en **SQL Server**.
 
 ---
 
@@ -33,7 +33,7 @@ Sistema de gestión de biblioteca para la facultad. Permite administrar libros, 
 
 ```
 
-biblioteca-facultad/
+restaurante_x/
 │── frontend/       # Cliente web (React + Vite)
 │── backend/        # API REST en .NET
 │── database/       # Scripts SQL para crear la base de datos

@@ -11,19 +11,19 @@ Sistema de gestión de restaurante. Permite administrar pedidos mediante una int
 ### Frontend - Pantalla principal
 ![Loggin](doc/frontend-log.png)
 
-### Frontend - Gestión de libros
+### Frontend - Gestión de Platillos
 ![Catálogo](doc/frontend-cat.png)
 
-### Backend - API con Swagger
+### Backend - API
 ![Swagger API](doc/backend-api.png)
 
 ---
 
 ## 🚀 Tecnologías
 
-- **Frontend:** React + Vite, TypeScript, TailwindCSS
-- **Backend:** .NET 6/7 Web API (C#)
-- **Base de Datos:** SQL Server
+- **Frontend:** Bootstrap
+- **Backend:** Node.js/Express
+- **Base de Datos:** PostgreSQL
 - **ORM / Acceso a datos:** Entity Framework Core
 - **Control de versiones:** Git + GitHub
 
@@ -34,8 +34,8 @@ Sistema de gestión de restaurante. Permite administrar pedidos mediante una int
 ```
 
 restaurante_x/
-│── frontend/       # Cliente web (React + Vite)
-│── backend/        # API REST en .NET
+│── frontend/       # Cliente web Bootstrap
+│── backend/        # API REST Node.js/Express
 │── database/       # Scripts SQL para crear la base de datos
 │── README.md       # Documentación del proyecto
 │── .gitignore      # Archivos ignorados por Git
@@ -54,7 +54,7 @@ cd restaurante_x
 
 ### 🔹 2. Configurar la base de datos
 
-1. Crear una base de datos en SQL Server (ejemplo: `RestauranteBD`).
+1. Crear una base de datos (ejemplo: `RestauranteBD`).
 
 2. Ejecutar los scripts de la carpeta `database/`:
 
